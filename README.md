@@ -1,3 +1,19 @@
+# DB
+```sql
+CREATE DATABASE book;
+GO
+USE book;
+GO
+
+CREATE TABLE Book(
+	id INT PRIMARY KEY identity,
+	category varchar(100),
+	title varchar(100),
+	quantity int
+);
+
+```
+
 # Lệnh import forEach
 
 ```jsp
